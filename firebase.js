@@ -10,13 +10,13 @@ const firebaseConfig = {
   projectId: "danielo-s-project-524d0",
   storageBucket: "danielo-s-project-524d0.firebasestorage.app",
   messagingSenderId: "728041872480",
-  appId: "1:728041872480:web:163e376dd9a1811d2eb705",
-  measurementId: "G-83252FBPSK"
+  appId: "1:728041872480:web:49fbba681bb32aa22eb705",
+  measurementId: "G-FF4GP5L2Z0"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
-// Initialize Database
+// Initialize and Export Database
 export const db = getFirestore(app);
